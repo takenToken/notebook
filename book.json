@@ -1,17 +1,16 @@
 {
-    "title": "GitBook 使用教程",
-    "description": "记录 GitBook 的配置和一些插件的使用",
-    "author": "zhangjikai",
+    "title": "个人笔记",
+    "description": "记录Java/Redis/Docker/Mac等笔记",
+    "author": "qiang.liu",
     "output.name": "site",
     "language": "zh-hans",
-    "gitbook": "3.2.3",
     "root": ".",
     "structure": {
         "readme": "README.md"
     },
     "links": {
         "sidebar": {
-            "Home": "http://www.zhangjikai.com"
+            "Home": "http://www.xxxx.com"
         }
     },
     "plugins": [
@@ -24,7 +23,6 @@
         "github@^2.0.0",
         "github-buttons@2.1.0",
         "edit-link@^2.0.2",
-        "disqus@^0.1.0",
         "prism@^2.1.0",
         "prism-themes@^0.0.2",
         "advanced-emoji@^0.2.1",
@@ -63,19 +61,16 @@
         "theme-default": {
             "showLevel": true
         },
-        "disqus": {
-            "shortName": "gitbookuse"
-        },
         "prism": {
             "css": [
                 "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
             ]
         },
         "github": {
-            "url": "https://github.com/zhangjikai/gitbook-use"
+            "url": "https://github.com/redisson/redisson"
         },
         "github-buttons": {
-            "repo": "zhangjikai/gitbook-use",
+            "repo": "xx",
             "types": [
                 "star"
             ],
@@ -111,7 +106,7 @@
            ]
        },
         "tbfed-pagefooter": {
-            "copyright": "Copyright © zhangjikai.com 2017",
+            "copyright": "Copyright © zhangjikai.com 2019",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
@@ -119,8 +114,8 @@
             "token": "ff100361cdce95dd4c8fb96b4009f7bc"
         },
         "donate": {
-            "wechat": "https://zhangjikai.com/resource/weixin.png",
-            "alipay": "https://zhangjikai.com/resource/alipay.png",
+            "wechat": "https://xx.com/resource/weixin.png",
+            "alipay": "https://xx.com/resource/alipay.png",
             "title": "",
             "button": "赏",
             "alipayText": "支付宝打赏",
@@ -131,11 +126,11 @@
             "skipFirstH1": true
         },
         "edit-link": {
-            "base": "https://github.com/zhangjikai/gitbook-use/edit/master",
+            "base": "https://github.com/xx/gitbook-use/edit/master",
             "label": "Edit This Page"
         },
         "sitemap-general": {
-            "prefix": "http://gitbook.zhangjikai.com"
+            "prefix": "http://gitbook.xx.com"
         },
         "anchor-navigation-ex": {
             "isRewritePageTitle": false,
@@ -155,31 +150,14 @@
             "fade": false,
             "style": "flat"
         },
-
-        "versions": {
-            "options": [
-                {
-                    "value": "http://gitbook.zhangjikai.com",
-                    "text": "v3.2.3"
-                },
-                {
-                    "value": "http://gitbook.zhangjikai.com/v2/",
-                    "text": "v2.6.4"
-                }
-            ]
-        },
-
         "rss": {
-            "title": "GitBook 使用教程",
-            "description": "记录 GitBook 的配置和一些插件的使用",
-            "author": "Jikai Zhang",
-            "feed_url": "http://gitbook.zhangjikai.com/rss",
-            "site_url": "http://gitbook.zhangjikai.com/",
+            "title": "笔记",
+            "description": "记录 各种 知识",
+            "author": "Qiang Liu",
+            "feed_url": "http://gitbook.xx.com/rss",
+            "site_url": "http://gitbook.xx.com/",
             "managingEditor": "me@zhangjikai.com",
-            "webMaster": "me@zhangjikai.com",
-            "categories": [
-                "gitbook"
-            ]
+            "webMaster": "me@zhangjikai.com"
         }
     }
 }
