@@ -69,3 +69,11 @@ netstat -lan |grep 10003
 阻塞，Blocked（重点关注）
 停止，Parked
 ```
+
+
+### 阿里arthas
+[阿里arthas参考资料](https://mp.weixin.qq.com/s/eYFNUtDujpYCAk9-6ByV4Q)
+* 步骤
+    - wget https://alibaba.github.io/arthas/arthas-boot.jar
+    - java jar arthas-boot.jar
+    - 输入：dashboard
